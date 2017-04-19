@@ -6,5 +6,6 @@ package com.example.luckychuan.ipquery;
 public interface MainView {
 
     void showIPInfo(IPInfo.Data data);
+    void showError(String error);
 
 }
