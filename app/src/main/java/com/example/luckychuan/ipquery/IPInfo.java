@@ -55,6 +55,17 @@ public class IPInfo {
         public void setIsp(String isp) {
             this.isp = isp;
         }
+
+        @Override
+        public String toString() {
+            return "Data{" +
+                    "country='" + country + '\'' +
+                    ", area='" + area + '\'' +
+                    ", region='" + region + '\'' +
+                    ", city='" + city + '\'' +
+                    ", isp='" + isp + '\'' +
+                    '}';
+        }
     }
 
     public String getCode() {
